@@ -1,0 +1,11 @@
+######################### hero area ##########################
+hero:
+  title: "Lennox Zabel"
+
+  # animated text loop
+  occupations:
+    - 'Einzelunternehmer'
+    - 'Gebäudereinigung'
+    - 'Seit 2025'
+  bg_image: 'images/background.jpg'
+  mobile_bg_image: 'images/background.jpg'
