@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://zabel.biz"
-title = "Lennox Zabel"
+title = "Zabel Gebäudereinigung"
 
 ############################# Plugins ##############################
 
@@ -10,7 +10,8 @@ link = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 [[params.plugins.css]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css"
 [[params.plugins.css]]
-link = "fonts/rubik.css"
+link = "fonts/dm_sans.css"
+
 #[[params.plugins.css]]
 #link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
 [[params.plugins.css]]
@@ -51,15 +52,15 @@ weight = 3
 [params]
 copyright = "Copyright Lennox Zabel &copy;"
 # Meta data
-description = "Lennox Zabel"
+description = "Zabel Gebäudereinigung"
 author = "Lennox Zabel"
 favicon = "images/icon.png"
-logo_light = "images/logo-white.png"
-logo_dark = "images/logo-dark.png"
+#logo_light = "images/logo-white.png"
+#logo_dark = "images/logo-dark.png"
 
 # Preloader
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################

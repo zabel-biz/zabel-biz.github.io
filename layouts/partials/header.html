@@ -1,12 +1,12 @@
 <section class="header" id="header">
   {{ if .Site.Params.enable_logo }}
-  <div class="logo">
+  <!--<div class="logo">
     <img
       class="img-fluid"
       src="{{ .Site.Params.logo_light | relURL }}"
       alt="{{ .Site.Title }}"
-    />
-  </div>
+      /> 
+  </div> -->
   {{ end }} {{ with .Site.Data.content.hero }}
   <div class="hero-image">
     {{ if ne .mobile_bg_image "" }}
@@ -28,6 +28,7 @@
       >
         <div class="head-holder">
           <h1 class="introduction">{{ .title | markdownify | emojify }}</h1>
+          <h1 class="subintroduction">{{ .subtitle | markdownify | emojify }}</h1>
           <div class="animated-text">
             <strong class="cd-headline clip">
               <span class="cd-words-wrapper">
