@@ -38,15 +38,36 @@ name = "Kontakt"
 URL = "mailto:zabel@mf.me"
 weight = 1
 
+# main menu
+[[menu.main]]
+name = "Gebäudereinigung"
+URL = "#gebäudereinigung"
+weight = 2
+
+[[menu.main]]
+name = "Besichtigung vereinbaren"
+URL = "https://www.cal.eu/zabel/besichtigung"
+weight = 3
+
+[[menu.main]]
+name = "Finanzen"
+URL = "#finanzen"
+weight = 4
+
+[[menu.main]]
+name = "Beratung buchen"
+URL = "https://www.cal.eu/zabel/beratung"
+weight = 5
+
 [[menu.main]]
 name = "Impressum"
 URL = "impressum.pdf"
-weight = 2
+weight = 6
 
 [[menu.main]]
 name = "Datenschutz"
 URL = "datenschutz.pdf"
-weight = 3
+weight = 7
 
 #################### default parameters ################################
 [params]

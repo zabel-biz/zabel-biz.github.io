@@ -18,3 +18,56 @@ hero:
    # - 'dass Bitcoin & Co akzeptiert'
   bg_image: 'images/background.jpg'
   mobile_bg_image: 'images/background.jpg'
+
+about:
+  enable: true
+#  image: 'images/profile.jpg'
+  title: 'Gebäudereinigung'
+  content: Lassen Sie uns keine Zeit verschwenden und einen Besichtigungstermin vereinbaren. Fragen gerne [per email](mailto:zabel@mf.me)!
+  button:
+    enable: true
+    label: 'Besichtigung vereinbaren'
+    link: https://cal.eu/zabel/besichtigung
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'Zabel'
+  experience_list:
+    - name: Lennox
+      company: L. Zabel
+      duration: '2025-Aktiv'
+      content: Mit am Ruder seit 2025, unterstützt in der Reinigung und kümmert sich um das Organisatorische sowie die Verwaltung.
+
+    - name: Geralt
+      company: G. Zabel
+      duration: '2000-Aktiv'
+      content: Jahrzehnte Erfahrung in der Treppenhaus-, Fenster- und Schiffsdeckreinigung. 
+
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'Reinigung'
+  showpercent: false
+  skill_list:
+    - name: 'Treppenhaus'
+      percentage: '100%'
+
+    - name: 'Fenster'
+      percentage: '100%'
+
+    - name: 'Schiffsdeck'
+      percentage: '100%'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'Finanzielle Souveränität'
+  portfolio_list:
+    - name: Bitcoin & Co.
+      image: 'images/portfolio/btc.png'
+      url: https://www.cal.eu/zabel/beratung
+      description: Wir sind unserer Recherche nach die Einzigen in Hamburg und einer der wenigen in Deutschland, in der Branche die Bitcoin & Co. akzeptieren. Wir haben uns gewiss für diesen Schritt entschieden, da Risiken mitigiert werden können, wie zum Beispiel das Einfrieren von Geldern. Mit dieser Bezahlmethode können unabhängig von Banken, Transfers getätigt werden. Wenn Sie ein Unternehmen oder eine Privatperson sind und unsere Dienstleistung mit Bitcoin oder anderen Coins bezahlen möchten, oder Sie selbst Bitcoin & Co. als Bezahlmethode in Ihrem Unternehmen implementieren möchten, Sie aber nicht wissen, wie, dann wenden Sie sich gerne an Lennox Zabel für eine Beratung und Umsetzung von Bitcoin & Co. in Ihrem Unternehmen. Möchten Sie auch als Unternehmen ein Pionier der Bezahlmethode in Ihrer Branche sein? Dann wenden Sie sich an Lennox Zabel und nutzen diese einmalige Gelegenheit, bevor es zuspät ist.
+

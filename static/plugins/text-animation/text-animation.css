@@ -54,6 +54,7 @@ html * {
 }
 .cd-headline.clip b {
   opacity: 0;
+  font-weight: 300;
 }
 .cd-headline.clip b.is-visible {
   opacity: 1;

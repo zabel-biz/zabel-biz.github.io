@@ -147,14 +147,14 @@
     }
   });
 
-  function toggleLogoImg(id) {
+/*  function toggleLogoImg(id) {
     var img = document.getElementById(id).src;
     if (img.indexOf('logo-dark.svg') != -1) {
       document.getElementById(id).src = '/images/logo.svg';
     } else {
       document.getElementById(id).src = '/images/logo-dark.svg';
     }
-  }
+  } */
 
   // Styling Menu on Scroll
   if (window.location.pathname === '/') {
@@ -165,7 +165,7 @@
         $('.menu-item').toggleClass('menu-item-transparent');
         $('.desktop-menu .hvr-underline-from-left').toggleClass('dark');
         // Toggle Logo
-        toggleLogoImg('desktop-logo');
+      //  toggleLogoImg('desktop-logo');
         // Toggling Mobile Menu Visibility
         $('.mobile-menu').toggleClass('mobile-menu-fix');
         // Auto-Collapsing Mobile Menu When Left Open

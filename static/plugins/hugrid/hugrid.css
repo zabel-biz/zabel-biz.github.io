@@ -109,16 +109,17 @@
 }
 
 .og-details h3 {
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 52px;
-  margin-bottom: 10px;
+  	margin-bottom: 10px;
+	color: #000000;
 }
 
 .og-details p {
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 16px;
 	line-height: 22px;
-	color: #4d4d4d;
+	color: #000000;
 }
 
 .og-loading {
