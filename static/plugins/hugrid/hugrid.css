@@ -37,15 +37,22 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #fff;
 	top: auto;
 	left: 0;
 	width: 100%;
 	margin-top: 10px;
 	text-align: left;
 	height: 0;
-	overflow: hidden;
+	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
+
+.og-expander::-webkit-scrollbar {
+	display: none;
+}
+
 
 .og-expander-inner {
 	padding: 50px 30px;
