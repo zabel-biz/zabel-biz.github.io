@@ -10,14 +10,16 @@ link = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
 [[params.plugins.css]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css"
 [[params.plugins.css]]
+link = "icons/css/all.css"
+[[params.plugins.css]]
 link = "fonts/dm_sans.css"
 
 #[[params.plugins.css]]
 #link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
 [[params.plugins.css]]
-link = "plugins/text-animation/text-animation.css"
+link = "plugins/text-animation.css"
 [[params.plugins.css]]
-link = "plugins/hugrid/hugrid.css"
+link = "plugins/hugrid.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -25,48 +27,49 @@ link = "https://code.jquery.com/jquery-3.5.1.min.js"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
 [[params.plugins.js]]
-link = "plugins/text-animation/text-animation.js"
+link = "plugins/text-animation.js"
 [[params.plugins.js]]
-link = "plugins/hugrid/hugrid.min.js"
+link = "plugins/hugrid.min.js"
 
 
 ############################## navigation ###############################
 
+[[menu.main]]
+name = "Home"
+URL = "/#"
+weight = 1
+
+
 # main menu
 [[menu.main]]
 name = "Kontakt"
-URL = "mailto:zabel@mf.me"
-weight = 1
+URL = "/kontakt"
+weight = 2
 
 # main menu
 [[menu.main]]
 name = "Gebäudereinigung"
-URL = "#gebäudereinigung"
-weight = 2
+URL = "/#gebäudereinigung"
+weight = 3
 
 [[menu.main]]
 name = "Besichtigung vereinbaren"
 URL = "https://www.cal.eu/zabel/besichtigung"
-weight = 3
-
-[[menu.main]]
-name = "Finanzen"
-URL = "#finanzen"
 weight = 4
 
 [[menu.main]]
-name = "Beratung buchen"
-URL = "https://www.cal.eu/zabel/beratung"
+name = "Finanzen"
+URL = "/#finanzen"
 weight = 5
 
 [[menu.main]]
 name = "Impressum"
-URL = "impressum.pdf"
+URL = "/impressum"
 weight = 6
 
 [[menu.main]]
 name = "Datenschutz"
-URL = "datenschutz.pdf"
+URL = "/datenschutz"
 weight = 7
 
 #################### default parameters ################################
@@ -85,6 +88,16 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+
+[[params.social]]
+icon = "fab fa-telegram"
+link = "https://t.me/zabel_biz"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:zabel@mf.me"
+
+[[params.social]]
+icon = "fas fa-phone-square"
+link = "tel:+4915511027122"
+
