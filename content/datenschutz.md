@@ -23,8 +23,8 @@ Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sin
 Lennox Zabel  
 Gropiusring 79,  
 22309 Hamburg  
-Telefon: +49 155 110 271 22  
-E-Mail: zabel@mf.me
+Telefon: [+49 155 11027122](tel:+4915511027122)  
+E-Mail: [ds@zabel.biz](mailto:ds@zabel.biz)
 
 ### II. Rechte der Nutzer und Betroffenen
 Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das Recht
@@ -69,65 +69,8 @@ Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzli
 
 GitHub hat Compliance-Maßnahmen für internationale Datenübermittlungen umgesetzt. Diese gelten für alle weltweiten Aktivitäten, bei denen GitHub personenbezogene Daten von natürlichen Personen in der EU verarbeitet. Diese Maßnahmen basieren auf den EU-Standardvertragsklauseln (SCCs). Weitere Informationen finden Sie unter: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-data-protection-addendum#attachment-1–the-standard-contractual-clauses-processors
 
-### BootstrapCDN
-Zur Optimierung der Abrufgeschwindigkeit, der Gestaltung und Darstellung der Inhalte unseres Internetauftritts auf unterschiedlichen Endgeräten setzen wir in unserem Internetauftritt den Dienst BootstrapCDN, ein Content Delivery Network („CDN“), ein. Hierbei handelt es sich um einen Dienst der StackPath, LLC, 2021 McKinney Ave. Suite 1100, Dallas, TX 75201, USA, nachfolgend nur „BootstrapCDN“ genannt.
-
-Um die Inhalte unseres Internetauftritts schnell ausliefern zu können, greift der Dienst auf sog. JavaScript-Bibliotheken zurück. Dabei werden entsprechende Dateien von einem Server von BootstrapCDN geladen, der Ihre IP-Adresse erfasst.
-
-Zudem bietet BootstrapCDN unter
-
-https://www.stackpath.com/legal/master-service-agreement/#privacy   
-
-weitergehende Datenschutzinformationen an.
-
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes Interesse liegt in der Beschleunigung der Ladezeiten unseres Internetauftritts sowie in dessen Optimierung.
-
-Um die Ausführung des Java-Script-Codes von BootstrapCDN insgesamt zu verhindern, können Sie einen sog. Java-Script-Blocker installieren, wie bspw. noscript.net oder ghostery.com. Sollten Sie die Ausführung des Java-Script-Codes verhindern oder einschränken, kann dies aus technischen Gründen allerdings dazu führen, dass womöglich nicht sämtliche Inhalte und Funktionen unseres Internetauftritts verfügbar sind.
-
-### CloudFlare
-Zur Absicherung unseres Internetauftritts sowie zur Optimierung der Ladezeiten setzen wir den Dienst CloudFlare als sog. CDN (Content-Delivery-Network) ein. Es handelt sich hierbei um einen Dienst der Cloudflare Inc., 101 Townsend Street, San Francisco, California 94107, USA, nachfolgend nur „CloudFlare“ genannt.
-
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes Interesse liegt in dem sicheren Betrieb unseres Internetauftritts sowie in dessen Optimierung.
-
-Sofern Sie unseren Internetauftritt aufrufen, werden Ihre Anfragen über den Server von CloudFlare geleitet. Hierbei werden statistische Zugriffsdaten über den Besuch unseres Internetauftritts erhoben und durch CloudFlare ein Cookie über Ihren Internet-Browser auf Ihrem Endgerät gespeichert. Zu den Zugriffsdaten zählen
-
-– Ihre IP-Adresse,
-
-– die von Ihnen aufgerufene(n) Internetseite(n) unseres Internetauftritts,
-
-– Typ und Version des von Ihnen genutzten Internet – Browsers,
-
-– das von Ihnen genutzte Betriebssystem,
-
-– die Internetseite, von der sie auf unseren Internetauftritt gewechselt haben (Referrer- URL),
-
-– Ihre Verweildauer auf unserem Internetauftritt und
-
-– die Häufigkeit des Aufrufs unserer Internetseiten.
-
-Die Daten werden durch CloudFlare zum Zwecke statistischer Auswertungen der Zugriffe sowie zur Sicherheit und Optimierung des Angebots verwendet.
-
-Sofern Sie mit dieser Verarbeitung nicht einverstanden sind, haben Sie die Möglichkeit, die Installation der Cookies durch die entsprechenden Einstellungen in Ihrem Internet-Browser zu verhindern. Einzelheiten hierzu finden Sie vorstehend unter dem Punkt „Cookies“.
-
-CloudFlare bietet unter
-
-https://www.cloudflare.com/privacypolicy/
-
-weitere Informationen zur Erhebung und Nutzung der Daten sowie zu Ihren Rechten und Möglichkeiten zum Schutz Ihrer Privatsphäre an.
-
-### jQuery CDN
-Zur Optimierung der Abrufgeschwindigkeit, der Gestaltung und Darstellung der Inhalte unseres Internetauftritts auf unterschiedlichen Endgeräten setzen wir in unserem Internetauftritt den Dienst
-
-jQuery CDN, ein Content Delivery Network („CDN“), ein. Hierbei handelt es sich um einen Dienst der jQuery Foundation, nachfolgend nur „jQuery“ genannt. jQuery wird für die JS Foundation über das StackPath CDN verteilt.
-
-Um die Inhalte unseres Internetauftritts schnell ausliefern zu können, greift der Dienst auf sog. JavaScript-Bibliotheken zurück. Dabei werden entsprechende Dateien von dem CDN-Server geladen, soweit sie nicht schon durch einen Besuch eines anderen Internetauftritts in Ihrem Browser-Cache vorhanden sind. Im Falle der Verbindung zu dem CDN-Server wird Ihre IP-Adresse erfasst. Dabei kann nicht ausgeschlossen werden, dass eine Verbindung zu einem Server außerhalb der EU erfolgt.
-
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes Interesse liegt in der Beschleunigung der Ladezeiten unseres Internetauftritts sowie in dessen Optimierung.
-
-Um die Ausführung des Java-Script-Codes von jQuery insgesamt zu verhindern, können Sie einen sog. Java-Script-Blocker installieren, wie bspw. noscript.net oder ghostery.com. Sollten Sie die Ausführung des Java-Script-Codes verhindern oder einschränken, kann dies aus technischen Gründen allerdings dazu führen, dass womöglich nicht sämtliche Inhalte und Funktionen unseres Internetauftritts verfügbar sind.
-
 ### Kontaktanfragen / Kontaktmöglichkeit
-Sofern Sie per E-Mail oder Telegram mit uns in Kontakt treten, werden die dabei von Ihnen angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt. Die Angabe der Daten ist zur Bearbeitung und Beantwortung Ihre Anfrage erforderlich – ohne deren Bereitstellung können wir Ihre Anfrage nicht oder allenfalls eingeschränkt beantworten.
+Sofern Sie per E-Mail mit uns in Kontakt treten, werden die dabei von Ihnen angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt. Die Angabe der Daten ist zur Bearbeitung und Beantwortung Ihre Anfrage erforderlich – ohne deren Bereitstellung können wir Ihre Anfrage nicht oder allenfalls eingeschränkt beantworten.
 
 Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. b) DSGVO.
 

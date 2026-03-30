@@ -6,9 +6,8 @@ Lennox Zabel
 Gropiusring 79  
 22309 Hamburg  
 
-Mobil: +49 155 110 271 22  
-E-Mail: zabel@mf.me  
+Telefon: [+49 155 11027122](tel:+4915511027122)  
+E-Mail: [info@zabel.biz](mailto:info@zabel.biz)  
 
-#### Wirtschafts-Identifikationsnummer   
-DE45711415
+W-IdNr: DE457114151
 
