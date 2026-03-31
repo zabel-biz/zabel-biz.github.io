@@ -38,12 +38,12 @@ experience:
     - name: Lennox
       company: le@zabel.biz
       duration: '2025-Aktiv'
-      content: Mit am Ruder seit 2025, unterstützt in der Reinigung und kümmert sich um das Organisatorische sowie die Verwaltung.
+      content: Unterstützt in der Reinigung und kümmert sich um das Organisatorische sowie die Verwaltung.
 
     - name: Geralt
       company: ge@zabel.biz
       duration: '2000-Aktiv'
-      content: Jahrzehnte Erfahrung in der Treppenhaus-, Fenster- und Schiffsdeckreinigung. 
+      content: Jahrzehnte Erfahrung in der Treppenhaus und Fensterreinigung. 
 
 
 ############################### Skill #################################
@@ -58,9 +58,9 @@ skill:
     - name: 'Fensterreinigung'
       percentage: '100%'
 
-    - name: 'Schiffsdeckreinigung'
+    - name: 'Anderes (Winter-, Mülldienst und Gartenarbeiten)'
       percentage: '100%'
-    
+
  ############################# portfolio ################################
 finanzen:
   enable: true
