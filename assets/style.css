@@ -855,7 +855,7 @@ input:checked + label span:last-child {
 .download-cv:hover,
 .download-cv:focus {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 .about-me-images img {
@@ -1421,4 +1421,8 @@ ul.experience-chart h4 {
 
 .padding-top {
   padding-top: 20px;
+}
+
+.dienste {
+  padding-top: 70px;
 }

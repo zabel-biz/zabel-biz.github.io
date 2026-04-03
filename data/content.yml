@@ -7,11 +7,10 @@ hero:
   occupations:
     
     - 'Wir agieren in Hamburg'
-    - 'Geralt seit 2000'
-    - 'Lennox seit 2025'
-    - 'Als ersten in Hamburg'
-    - 'in der Branche'
-    - 'die Bitcoin & Co. akzeptieren'
+    - 'seit 2000'
+    - 'Treppenaus- & Fensterreinigung'
+    - 'Garten- & Kleinarbeiten'
+    - 'Winter- & Mülldienst'
 
    #- 'Erstes Hamburger Unternehmen'
    # - 'in der Gebäudereinigung'
@@ -22,33 +21,32 @@ hero:
 about:
   enable: true
 #  image: 'images/profile.jpg'
-  title: 'Gebäudereinigung'
-  content: Lassen Sie uns keine Zeit verschwenden und einen Besichtigungstermin vereinbaren. Fragen gerne [per email](mailto:info@zabel.biz)!
+  title: 'Zabel Gebäudereinigung'
+  content: Ihr Partner für die Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist Ruhe zu haben von den physikalischen Arbeiten die mit Immobilien daherkommen. Wir sind jetzt schon seit zwei Jahrzehnten hier für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf eine langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
   button:
     enable: true
-    label: 'Besichtigung'
-    link: "https://www.cal.eu/zabel/besichtigung"
-    icon: 'fa-broom'
-
+    label: 'Kontakt'
+    link: "mailto:info@zabel.biz"
+    icon: 'fas fa-envelope'
 ###########################3 Experience ##############################
 experience:
-  enable: true
-  title: 'Zabel'
+  enable: false
+  title: 
   experience_list:
-    - name: Lennox
-      company: le@zabel.biz
-      duration: '2025-Aktiv'
-      content: Unterstützt in der Reinigung und kümmert sich um das Organisatorische sowie die Verwaltung.
+    - name: 
+      company: 
+      duration: 
+      content: 
 
-    - name: Geralt
-      company: ge@zabel.biz
-      duration: '2000-Aktiv'
-      content: Jahrzehnte Erfahrung in der Treppenhaus und Fensterreinigung. 
+    - name: 
+      company: 
+      duration: 
+      content: 
 
 
 ############################### Skill #################################
 skill:
-  enable: true
+  enable: false
   title: 'Dienstleistungen'
   showpercent: false
   skill_list:
@@ -62,13 +60,55 @@ skill:
       percentage: '100%'
 
  ############################# portfolio ################################
-finanzen:
+dienste1:
   enable: true
-  title: 'Finanzielle Souveränität'
+  title: 'Treppenhaus- & Fensterreinigung'
   portfolio_list:
     
-    - name: Bitcoin & Co.
-      image: 'images/btc.png'
-      url: https://bitcoin.org/de
-      description: Wir sind unserer Recherche nach die Einzigen in Hamburg und einer der wenigen in Deutschland, in der Branche die Bitcoin & Co. akzeptieren. Wir haben uns gewiss für diesen Schritt entschieden, da Risiken mitigiert werden können, wie zum Beispiel das Einfrieren von Geldern. Mit dieser Bezahlmethode können unabhängig von Banken, Transfers getätigt werden.   
+    - name: Treppenhausreinigung
+      image: 'images/th.jpg'
+      url: "mailto:info@zabel.biz"
+      description:  
+    - name: Fensterreinigung
+      image: 'images/f.jpg'
+      url: "mailto:info@zabel.biz"
+      description: 
+
+dienste2:
+  enable: true
+  title: 'Garten- & Kleinarbeiten'
+  portfolio_list:
+    
+    - name: Gartenarbeit
+      image: 'images/g.jpg'
+      url: "mailto:info@zabel.biz"
+      description: 
+    - name: Kleinarbeiten
+      image: 'images/k.jpg'
+      url: "mailto:info@zabel.biz"
+      description: 
+
+dienste3:
+  enable: true
+  title: 'Winter- & Mülldienst'
+  portfolio_list:
+    
+    - name: Winterdienst
+      image: 'images/w.jpg'
+      url: "mailto:info@zabel.biz"
+      description:  
+    - name: Mülldienst
+      image: 'images/m.jpg'
+      url: "mailto:info@zabel.biz"
+      description: 
+ 
+#finanzen:
+#  enable: true
+#title: 'Finanzielle Souveränität'
+#  portfolio_list:
+    
+#    - name: Bitcoin & Co.
+#      image: 'images/btc.png'
+#url: https://bitcoin.org/de
+#description: Wir sind unserer Recherche nach die Einzigen in Hamburg und einer der wenigen in Deutschland, in der Branche die Bitcoin & Co. akzeptieren. Wir haben uns gewiss für diesen Schritt entschieden, da Risiken mitigiert werden können, wie zum Beispiel das Einfrieren von Geldern. Mit dieser Bezahlmethode können unabhängig von Banken, Transfers getätigt werden.   
         

@@ -39,22 +39,22 @@ weight = 1
 [[menu.main]]
 name = "Kontakt"
 URL = "mailto:info@zabel.biz"
+weight = 5
+
+[[menu.main]]
+name = "Unternehmen"
+URL = "/#gebäudereinigung"
 weight = 2
 
+#[[menu.main]]
+#name = "Besichtigung vereinbaren"
+#URL = "https://www.cal.eu/zabel/besichtigung"
+#weight = 4
+
 [[menu.main]]
-name = "Gebäudereinigung"
-URL = "/#gebäudereinigung"
+name = "Dienstleistungen"
+URL = "/#dienstleistungen"
 weight = 3
-
-[[menu.main]]
-name = "Besichtigung vereinbaren"
-URL = "https://www.cal.eu/zabel/besichtigung"
-weight = 4
-
-[[menu.main]]
-name = "Finanzen"
-URL = "/#finanzen"
-weight = 5
 
 [[menu.main]]
 name = "Impressum"
