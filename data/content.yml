@@ -1,7 +1,7 @@
 ######################### hero area ##########################
 hero:
   title: ZABEL
-  subtitle: GEBÄUDEREINIGUNG
+  subtitle: Objektbetreuung
   
   # animated text loop
   occupations:
@@ -21,13 +21,19 @@ hero:
 about:
   enable: true
 #  image: 'images/profile.jpg'
-  title: 'Zabel Gebäudereinigung'
-  content: Ihr Partner für die Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist Ruhe zu haben von den physikalischen Arbeiten die mit Immobilien daherkommen. Wir sind jetzt schon seit zwei Jahrzehnten hier für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf eine langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
+  title: 'Zabel Objektbetreuung'
+  content: Ihr Partner für Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist, Ruhe zu haben von den physikalischen Arbeiten die mit Immobilien daherkommen. Wir sind schon seit zwei Jahrzehnten für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
   button:
     enable: true
     label: 'Kontakt'
     link: "mailto:info@zabel.biz"
     icon: 'fas fa-envelope'
+  button1:
+    enable: true
+    label: 'Dienstleistungen'
+    link: "/dienstleistungen"
+    icon: 'fas fa-briefcase'
+
 ###########################3 Experience ##############################
 experience:
   enable: false
@@ -61,7 +67,7 @@ skill:
 
  ############################# portfolio ################################
 dienste1:
-  enable: true
+  enable: false
   title: 'Treppenhaus- & Fensterreinigung'
   portfolio_list:
     
@@ -75,7 +81,7 @@ dienste1:
       description: 
 
 dienste2:
-  enable: true
+  enable: false
   title: 'Garten- & Kleinarbeiten'
   portfolio_list:
     
@@ -89,7 +95,7 @@ dienste2:
       description: 
 
 dienste3:
-  enable: true
+  enable: false
   title: 'Winter- & Mülldienst'
   portfolio_list:
     

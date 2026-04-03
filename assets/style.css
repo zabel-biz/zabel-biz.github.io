@@ -11,44 +11,55 @@ h1 {
   padding-top: 100px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 100;
-  color: #000000;
+  color: #bbb;
 }
 
 
 h2 {
   font-weight: 100;
-  color: #000000;
+  color: #bbb;
 }
 
 h3 {
   font-weight: 100;
-  color: #000000;
+  color: #bbb;
 }
 
 h4 {
   font-weight: 200;
   font-size: 1rem;
-  color: #000000;
+  color: #bbb;
 }
 
 h5 {
   font-family: 'DM Sans';
   font-weight: 300;
-  color: #000000;
+  color: #bbb;
   font-size: 1rem;
 }
 
 h6 {
   font-family: 'DM Sans';
   font-weight: 300;
-  color: #000000;
+  color: #bbb;
 }
 
 p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-weight: 200;
+    color: #bbb;
 }
+
+a {
+	color: #bbb;
+	
+}
+
+li {
+	color: #bbb;
+}
+
 .img {
 	width:50px;
 }
@@ -60,6 +71,14 @@ body {
   font-family: 'DM Sans', sans-serif;
   height: 100%;
   font-weight: 300;
+  background: #313131;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100%;
+  min-height: 420px;
 }
 
 .no-js body {
@@ -337,10 +356,11 @@ body {
   font-weight: 500;
   margin-top: 15px;
   display: inline-block;
-  border: 1px solid #ffffff;
+  border: 1px solid #e9e9e9;
   padding: 7px 10px;
   border-radius: 18px;
   background: #e9e9e9;
+  text-shadow: rgb(135 135 135) 4px 4px 4px;
 }
 
 .button:hover {
@@ -626,7 +646,7 @@ input:checked + label span:last-child {
 }
 
 .menu-normal {
-  background: #fff;
+  background: #313131;
 }
 
 .menu-container-transparent {
@@ -692,7 +712,7 @@ input:checked + label span:last-child {
 }
 
 .menu-item-transparent.menu-item a {
-  color: #000000;
+  color: #fff;
 }
 
 /* ========= Mobile Menu ======= */
@@ -824,6 +844,7 @@ input:checked + label span:last-child {
 .menu-slider li a {
   font-size: 20px;
   font-weight: 200;
+  color: #bbb;
 }
 
 /*--------------------------------
@@ -836,18 +857,25 @@ input:checked + label span:last-child {
 .about-me {
   background: #fff;
   padding: 70px 0px;
+  background: #313131;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 420px;
 }
 
 .about-me-text h1 {
   position: relative;
-  color: #000000;
+  color: #bbb;
   font-weight: 100;
   letter-spacing: 2px;
   padding-top: 0px;
 }
 
 .about-me-text p {
-  color: #000000;
+  color: #bbb;
   font-size: 16px;
   font-weight: 200;
 }
@@ -1069,7 +1097,7 @@ ul.experience-chart h4 {
   right: 0;
   text-align: center;
   font-weight: 200;
-  color: #000000;
+  color: #fff;
 }
 
 /*--------------------------------
@@ -1285,6 +1313,8 @@ ul.experience-chart h4 {
 .hero-image {
   height: 100%;
   overflow: hidden;
+  filter: grayscale(1) contrast(1) brightness(0.4);
+
 }
 
 .hero-image img {
@@ -1420,9 +1450,13 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 .padding-top {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 
 .dienste {
-  padding-top: 70px;
+	padding-top: 70px;
+}
+
+img {
+	filter: grayscale(1) contrast(1) brightness(0.8);
 }

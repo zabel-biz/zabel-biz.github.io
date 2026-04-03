@@ -3,7 +3,7 @@
 <!-- =============================
        Start About Me
     =============================== -->
-<section class="about-me" id="gebäudereinigung">
+<section class="about-me" id="unternehmen">
   <div class="container">
     {{ if .Site.Data.content.about.enable }} {{ with .Site.Data.content.about }}
     <div class="row about-me-holder">
@@ -25,9 +25,20 @@
             rel="noreferrer"
             class="button download-cv"
           >
-            {{ .label }} <i class="fas fa-envelope"></i
+	    {{ .label }} <i class="fas fa-envelope"></i
           ></a>
           {{ end }} {{ end }}
+	  {{ if .button1.enable }} {{ with .button1 }}
+          <a
+            href="{{ .link | relURL }}"
+            target="_blank"
+            rel="noreferrer"
+            class="button download-cv"
+          >
+	    {{ .label }} <i class="fas fa-briefcase"></i
+          ></a>
+          {{ end }} {{ end }}
+
         </div>
       </div>
       {{ with .image }}
@@ -92,7 +103,7 @@
        Start Portfolio
     =============================== -->
 
-{{ if .Site.Data.content.dienste1.enable }} {{ with
+<!-- {{ if .Site.Data.content.dienste1.enable }} {{ with
 .Site.Data.content.dienste1 }}
 <section class="dienste" id="dienstleistungen" style="padding-top: 70px;">
   <div class="padding-top">
@@ -241,7 +252,7 @@
   </div>
 </section>
 {{ end }} {{ end }}
-
+-->
 <!-- =============================
        End Portfolio
     =============================== -->

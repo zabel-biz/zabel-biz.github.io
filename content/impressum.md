@@ -1,6 +1,6 @@
 # Impressum
 ---
-#### ZABEL GEBÄUDEREINIGUNG  
+#### ZABEL OBJEKTBETREUUNG  
 
 Lennox Zabel  
 Gropiusring 79  

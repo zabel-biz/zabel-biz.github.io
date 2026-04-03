@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://zabel.biz"
-title = "Zabel Gebäudereinigung"
+title = "Zabel Objektbetreuung"
 
 ############################# Plugins ##############################
 
@@ -37,14 +37,19 @@ URL = "/#"
 weight = 1
 
 [[menu.main]]
-name = "Kontakt"
-URL = "mailto:info@zabel.biz"
-weight = 5
+name = "Unternehmen"
+URL = "/#unternehmen"
+weight = 2
 
 [[menu.main]]
-name = "Unternehmen"
-URL = "/#gebäudereinigung"
-weight = 2
+name = "Dienstleistungen"
+URL = "/dienstleistungen"
+weight = 3
+
+[[menu.main]]
+name = "Kontakt"
+URL = "mailto:info@zabel.biz"
+weight = 4
 
 #[[menu.main]]
 #name = "Besichtigung vereinbaren"
@@ -52,19 +57,14 @@ weight = 2
 #weight = 4
 
 [[menu.main]]
-name = "Dienstleistungen"
-URL = "/#dienstleistungen"
-weight = 3
-
-[[menu.main]]
 name = "Impressum"
 URL = "/impressum"
-weight = 6
+weight = 5
 
 [[menu.main]]
 name = "Datenschutz"
 URL = "/datenschutz"
-weight = 7
+weight = 6
 
 #################### default parameters ################################
 [params]
