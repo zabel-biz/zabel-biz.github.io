@@ -23,47 +23,43 @@ about:
 #  image: 'images/profile.jpg'
   title: 'Zabel Objektbetreuung'
   content: Ihr Partner für Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist, Ruhe zu haben von den physikalischen Arbeiten die mit Immobilien daherkommen. Wir sind schon seit zwei Jahrzehnten für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
-  button:
-    enable: true
-    label: 'Kontakt'
-    link: "mailto:info@zabel.biz"
-    icon: 'fas fa-envelope'
-  button1:
-    enable: true
-    label: 'Dienstleistungen'
-    link: "/dienstleistungen"
-    icon: 'fas fa-briefcase'
 
-###########################3 Experience ##############################
+  ###########################3 Experience ##############################
 experience:
-  enable: false
-  title: 
-  experience_list:
-    - name: 
-      company: 
-      duration: 
-      content: 
-
-    - name: 
-      company: 
-      duration: 
-      content: 
-
+  enable: true
+  title:
 
 ############################### Skill #################################
 skill:
-  enable: false
+  enable: true
   title: 'Dienstleistungen'
   showpercent: false
   skill_list:
-    - name: 'Treppenhausreinigung'
+    - name: 'Treppenhaus- & Fensterreinigung'
       percentage: '100%'
 
-    - name: 'Fensterreinigung'
+    - name: 'Garten- & Kleinarbeiten'
       percentage: '100%'
 
-    - name: 'Anderes (Winter-, Mülldienst und Gartenarbeiten)'
+    - name: 'Winter- & Mülldienst'
       percentage: '100%'
+######### Contact #################################
+contact:
+  enable: true
+#  image: 'images/profile.jpg'
+  title: 'Kontaktieren Sie uns gern!'
+  content: Fragen zu spezifischen Dienstleistungen oder ganz einfach Interesse? Sie können uns Telefonisch als auch per E-Mai erreichen.
+  button:
+    enable: true
+    label: '+49 155 11027122'
+    link: "tel:+4915511027122"
+    icon: 'fas fa-envelope'
+  button1:
+    enable: true
+    label: 'info@zabel.biz'
+    link: "mailto:info@zabel.biz"
+    icon: 'fas fa-briefcase'
+
 
  ############################# portfolio ################################
 dienste1:

@@ -43,18 +43,13 @@ weight = 2
 
 [[menu.main]]
 name = "Dienstleistungen"
-URL = "/dienstleistungen"
+URL = "/#dienstleistungen"
 weight = 3
 
 [[menu.main]]
 name = "Kontakt"
-URL = "mailto:info@zabel.biz"
+URL = "/#kontakt"
 weight = 4
-
-#[[menu.main]]
-#name = "Besichtigung vereinbaren"
-#URL = "https://www.cal.eu/zabel/besichtigung"
-#weight = 4
 
 [[menu.main]]
 name = "Impressum"

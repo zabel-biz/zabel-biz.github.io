@@ -18,27 +18,6 @@
         <div class="text-holder">
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | markdownify | emojify }}</p>
-          {{ if .button.enable }} {{ with .button }}
-          <a
-            href="{{ .link | relURL }}"
-            target="_blank"
-            rel="noreferrer"
-            class="button download-cv"
-          >
-	    {{ .label }} <i class="fas fa-envelope"></i
-          ></a>
-          {{ end }} {{ end }}
-	  {{ if .button1.enable }} {{ with .button1 }}
-          <a
-            href="{{ .link | relURL }}"
-            target="_blank"
-            rel="noreferrer"
-            class="button download-cv"
-          >
-	    {{ .label }} <i class="fas fa-briefcase"></i
-          ></a>
-          {{ end }} {{ end }}
-
         </div>
       </div>
       {{ with .image }}
@@ -75,7 +54,8 @@
       </div>
       {{ end }} {{ end }} {{ if .Site.Data.content.skill.enable }} {{ with
       .Site.Data.content.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill">
+      
+      <div class="col-lg-6 col-sm-6 col-11 skill" id="dienstleistungen">
         <h2>{{ .title }}</h2>
         <div class="skill-progress-bar">
           {{ range .skill_list }}
@@ -95,6 +75,52 @@
     </div>
   </div>
 </section>
+
+<section class="contact" id="kontakt">
+  <div class="container">
+    {{ if .Site.Data.content.contact.enable }} {{ with .Site.Data.content.contact }}
+    <div class="row about-me-holder">
+      <div
+        class="
+          col-lg-6 col-md-6 col-sm-6
+          about-me-text
+          d-flex
+          align-self-center
+        "
+      >
+        <div class="text-holder">
+          <h1>{{ .title | safeHTML }}</h1>
+          <p>{{ .content | markdownify | emojify }}</p>
+          {{ if .button.enable }} {{ with .button }}
+          <a
+            href="{{ .link | relURL }}"
+            target="_blank"
+            rel="noreferrer"
+            class="button download-cv"
+          >
+	    {{ .label }} <i class="fas fa-phone-alt"></i
+          ></a>
+          {{ end }} {{ end }}
+	  {{ if .button1.enable }} {{ with .button1 }}
+          <a
+            href="{{ .link | relURL }}"
+            target="_blank"
+            rel="noreferrer"
+            class="button download-cv"
+          >
+	    {{ .label }} <i class="fas fa-envelope"></i
+          ></a>
+          {{ end }} {{ end }}
+
+        </div>
+      </div>
+      {{ with .image }}
+      <div class="col-lg-6 col-sm-6 col-9 about-me-images">
+        <img src="{{ . | relURL }}" alt="about-me" />
+      </div>
+      {{ end }}
+    </div>
+    {{ end }} {{ end }}
 <!-- =============================
       End About Me
     =============================== -->
