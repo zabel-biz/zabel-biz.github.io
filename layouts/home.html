@@ -93,7 +93,7 @@
           <p>{{ .content | markdownify | emojify }}</p>
           {{ if .button.enable }} {{ with .button }}
           <a
-            href="{{ .link | relURL }}"
+            href="{{ .link | relURL | safeURL }}"
             target="_blank"
             rel="noreferrer"
             class="button download-cv"
