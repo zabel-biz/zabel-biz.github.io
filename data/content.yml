@@ -48,7 +48,7 @@ contact:
   enable: true
 #  image: 'images/profile.jpg'
   title: 'Kontaktieren Sie uns gern!'
-  content: Fragen zu spezifischen Dienstleistungen oder ganz einfach Interesse? Sie können uns Telefonisch als auch per E-Mai erreichen.
+  content: Fragen zu spezifischen Dienstleistungen oder ganz einfach Interesse? Sie können uns Telefonisch als auch per E-Mail erreichen.
   button:
     enable: true
     label: '+49 155 11027122'
