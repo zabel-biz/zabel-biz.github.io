@@ -68,8 +68,8 @@ copyright = "Copyright Lennox Zabel &copy;"
 description = "Zabel Gebäudereinigung"
 author = "Lennox Zabel"
 favicon = "images/icon.png"
-#logo_light = "images/logo-white.png"
-#logo_dark = "images/logo-dark.png"
+#logo_light = "images/logo-light.svg"
+#logo_dark = "images/logo-dark.svg"
 
 # Preloader
 [params.preloader]
@@ -81,8 +81,4 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 [[params.social]]
 icon = "fas fa-envelope"
 link = "mailto:info@zabel.biz"
-
-[[params.social]]
-icon = "fas fa-phone-square"
-link = "tel:+4915511027122"
 

@@ -20,13 +20,13 @@ hero:
 
 about:
   enable: true
-#  image: 'images/profile.jpg'
+ # image: 'images/profile.png'
   title: 'Zabel Objektbetreuung'
   content: Ihr Partner für Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist, Ruhe zu haben von den physikalischen Arbeiten die mit Immobilien daherkommen. Wir sind schon seit zwei Jahrzehnten für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
 
   ###########################3 Experience ##############################
 experience:
-  enable: true
+  enable: false
   title:
 
 ############################### Skill #################################
@@ -48,18 +48,11 @@ contact:
   enable: true
 #  image: 'images/profile.jpg'
   title: 'Kontaktieren Sie uns gern!'
-  content: Fragen zu spezifischen Dienstleistungen oder ganz einfach Interesse? Sie können uns Telefonisch als auch per E-Mail erreichen.
+  content: Fragen zu spezifischen Dienstleistungen oder ganz einfach Interesse? Sie können uns per E-Mail erreichen. Möchten Sie ein Telefonat oder eine Besichtigung vereinbaren? Schreiben Sie uns!
   button:
-    enable: true
-    label: '+49 155 11027122'
-    link: "tel:+4915511027122"
-    icon: 'fas fa-envelope'
-  button1:
     enable: true
     label: 'info@zabel.biz'
     link: "mailto:info@zabel.biz"
-    icon: 'fas fa-briefcase'
-
 
  ############################# portfolio ################################
 dienste1:
