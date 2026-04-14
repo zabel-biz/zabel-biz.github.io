@@ -318,7 +318,7 @@ body {
   color: #ffffff;
 }
 .subintroduction {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 100;
   font-style: normal;
   font-family: 'DM Sans', 'sans-serif' !important;
@@ -656,6 +656,7 @@ input:checked + label span:last-child {
 .desktop-menu-logo img {
   height: 50px;
   margin-left: 20px;
+  padding: 10px;
 }
 
 .desktop-menu-logo {
@@ -731,10 +732,14 @@ input:checked + label span:last-child {
 
 .mobile-menu-fix {
   position: fixed;
+  background: #313131;
+  box-shadow: 0px 0px 4px 0px;
+  transition: all 0.5s;
 }
 
 .mobile-menu-logo img {
   height: 50px;
+  padding: 10px;
 }
 
 .mobile-menu-logo {
@@ -1107,11 +1112,16 @@ ul.experience-chart h4 {
 
 @media (max-width: 550px) and (min-height: 501px) {
   .introduction {
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 5px;
   }
+  .subintroduction {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
   .animated-text {
-    font-size: 21px;
+    font-size: 20px;
     margin-top: 7px;
     margin-bottom: 2px;
   }
