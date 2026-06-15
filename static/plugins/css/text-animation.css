@@ -22,12 +22,6 @@ html * {
 .cd-words-wrapper b.is-visible {
   position: relative;
 }
-.no-js .cd-words-wrapper b {
-  opacity: 0;
-}
-.no-js .cd-words-wrapper b.is-visible {
-  opacity: 1;
-}
 .cd-headline{
     margin-top: 0;
     margin-bottom: 0;
@@ -48,9 +42,6 @@ html * {
   width: 2px;
   height: 70%;
   background-color: #fff;
-}
-.no-js .cd-headline.clip .cd-words-wrapper::after{
-  display: none;
 }
 .cd-headline.clip b {
   opacity: 0;
