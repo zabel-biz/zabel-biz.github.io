@@ -5,7 +5,7 @@
     =============================== -->
 <section class="about-me" id="unternehmen">
   <div class="container">
-    {{ if .Site.Data.content.about.enable }} {{ with .Site.Data.content.about }}
+    {{ if hugo.Data.content.about.enable }} {{ with hugo.Data.content.about }}
     <div class="row about-me-holder">
       <div
         class="
@@ -27,41 +27,30 @@
       {{ end }}
     </div>
     {{ end }} {{ end }}
+    </div>
+  </div>
+</section>
 
-    <div class="row experience-skill">
-      {{ if .Site.Data.content.experience.enable }} {{ with
-      .Site.Data.content.experience }}
-      <div class="col-lg-6 col-sm-6 col-11 experience">
-        <h2>{{ .title }}</h2>
-        <ul class="experience-chart">
-          {{ range .experience_list }}
-          {{ if not (eq .enable false) }}
-            <li>
-              <div class="single-experience">
-                <h3>{{ .name | markdownify }}</h3>
-                {{ with .company }}
-                <span>{{ . | markdownify }} |</span>
-                {{ end }} {{ with .duration }}
-                <span>{{ . | markdownify }}</span>
-                {{ end }} {{ with .content }}
-                <p>{{ . | markdownify }}</p>
-                {{ end }}
-              </div>
-            </li>
-          {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }} {{ end }} {{ if .Site.Data.content.skill.enable }} {{ with
-      .Site.Data.content.skill }}
-      
-      <div class="col-lg-6 col-sm-6 col-11 skill" id="dienstleistungen">
+<section class="services" id="dienstleistungen">
+  <div class="container">      
+    {{ if hugo.Data.content.skill.enable }} {{ with
+      hugo.Data.content.skill }}
+    <div class="row about-me-holder" style="justify-content: right;">
+      <div
+        class="
+          col-lg-6 col-md-6 col-sm-6
+          about-me-text
+          align-self-center
+	  col-lg-6 col-sm-6 col-11 skill
+
+        "
+      >
         <h2>{{ .title }}</h2>
         <div class="skill-progress-bar">
           {{ range .skill_list }}
           <div class="clearfix">
             <span class="skillbar-title">{{ .name }}</span>
-            {{ if .Site.Data.content.skill.showpercent }}
+            {{ if hugo.Data.content.skill.showpercent }}
             <span class="skill-bar-percent">{{ .percentage }}</span>
             {{ end }}
             <div class="skillbar" data-percent="{{ .percentage }}">
@@ -78,7 +67,7 @@
 
 <section class="contact" id="kontakt">
   <div class="container">
-    {{ if .Site.Data.content.contact.enable }} {{ with .Site.Data.content.contact }}
+    {{ if hugo.Data.content.contact.enable }} {{ with hugo.Data.content.contact }}
     <div class="row about-me-holder">
       <div
         class="
@@ -93,13 +82,25 @@
           <p>{{ .content | markdownify | emojify }}</p>
 	  {{ if .button.enable }} {{ with .button }}
           <a
-            href="{{ .link | relURL }}"
-            target="_blank"
-            rel="noreferrer"
+            title="Email"
+	    href="{{ .link }}"
+	    data-email_b64="aW5mb0B6YWJlbC5iaXoK"
+            class="button download-cv"
+		
+          >
+
+          </a>
+          {{ end }} {{ end }}
+
+	  {{ if .button1.enable }} {{ with .button1 }}
+          <a
+            title="Number"
+	    href="{{ .link }}"
+	    data-number_b64="KzQ5MTU1MTEwMjcxMjIK"
             class="button download-cv"
           >
-	    {{ .label }} <i class="fas fa-envelope"></i
-          ></a>
+
+          </a>
           {{ end }} {{ end }}
 
         </div>
@@ -107,171 +108,15 @@
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 about-me-images">
         <img src="{{ . | relURL }}" alt="about-me" />
-      </div>
       {{ end }}
     </div>
     {{ end }} {{ end }}
+    </div>
+  </div>
+</section>
+
 <!-- =============================
       End About Me
     =============================== -->
-
-<!-- =============================
-       Start Portfolio
-    =============================== -->
-
-<!-- {{ if .Site.Data.content.dienste1.enable }} {{ with
-.Site.Data.content.dienste1 }}
-<section class="dienste" id="dienstleistungen" style="padding-top: 70px;">
-  <div class="padding-top">
-  <div class="container-fluid text-center">
-    <div class="row portfolio-holder text-left">
-      <div class="col-12 text-center">
-        <h2>{{ .title }}</h2>
-      </div>
-      <ul id="og-grid" class="og-grid">
-        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
-        "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
-        <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
-            {{ .description | markdownify }}
-          </p>
-          <a
-            href="{{ .url }}"
-            data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .name }}"
-		    data-buttontext="Kontakt"
-          >
-            <img
-              src="{{ $sm_image.RelPermalink }}"
-              alt="{{ $parsed_name }} image"
-            />
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
-{{ end }} {{ end }}
-
-
-
-{{ if .Site.Data.content.dienste2.enable }} {{ with
-.Site.Data.content.dienste2 }}
-<section class="" id="dienstleistungen">
-  <div class="padding-top">
-  <div class="container-fluid text-center">
-    <div class="row portfolio-holder text-left">
-      <div class="col-12 text-center">
-        <h2>{{ .title }}</h2>
-      </div>
-      <ul id="og-grid" class="og-grid">
-        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
-        "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
-        <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
-            {{ .description | markdownify }}
-          </p>
-          <a
-            href="{{ .url }}"
-            data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .name }}"
-		    data-buttontext="Kontakt"
-          >
-            <img
-              src="{{ $sm_image.RelPermalink }}"
-              alt="{{ $parsed_name }} image"
-            />
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
-{{ end }} {{ end }}
-
-
-{{ if .Site.Data.content.dienste3.enable }} {{ with
-.Site.Data.content.dienste3 }}
-<section class="" id="dienstleistungen">
-  <div class="padding-top">
-  <div class="container-fluid text-center">
-    <div class="row portfolio-holder text-left">
-      <div class="col-12 text-center">
-        <h2>{{ .title }}</h2>
-      </div>
-      <ul id="og-grid" class="og-grid">
-        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
-        "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
-        <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
-            {{ .description | markdownify }}
-          </p>
-          <a
-            href="{{ .url }}"
-            data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .name }}"
-		    data-buttontext="Kontakt"
-          >
-            <img
-              src="{{ $sm_image.RelPermalink }}"
-              alt="{{ $parsed_name }} image"
-            />
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
-{{ end }} {{ end }}
-
-
-
-
-{{ if .Site.Data.content.finanzen.enable }} {{ with
-.Site.Data.content.finanzen }}
-<section class="finanzen" id="finanzen">
-  <div class="padding-top">
-  <div class="container-fluid text-center">
-    <div class="row portfolio-holder text-left">
-      <div class="col-12 text-center">
-        <h2>{{ .title }}</h2>
-      </div>
-      <ul id="og-grid" class="og-grid">
-        {{ range .portfolio_list }} {{ $image := resources.Get .image }} {{
-        $big_image := $image.Fill "780x500 jpg" }} {{ $sm_image := $image.Fill
-        "395x250 jpg" }} {{ $parsed_name := replace .name "." "" }}
-        <li>
-          <p id="description-{{ $parsed_name | urlize }}" class="hidden">
-            {{ .description | markdownify }}
-          </p>
-          <a
-            href="{{ .url }}"
-            data-largesrc="{{ $big_image.RelPermalink }}"
-            data-title="{{ .name }}"
-		    data-buttontext="Kontakt"
-          >
-            <img
-              src="{{ $sm_image.RelPermalink }}"
-              alt="{{ $parsed_name }} image"
-            />
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-</section>
-{{ end }} {{ end }}
--->
-<!-- =============================
-       End Portfolio
-    =============================== -->
-
 
 {{- partial "footer.html" . -}} {{ end }}

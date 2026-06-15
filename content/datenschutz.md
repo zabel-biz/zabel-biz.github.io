@@ -23,8 +23,11 @@ Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sin
 Lennox Zabel  
 Gropiusring 79,  
 22309 Hamburg  
-Telefon: [+49 155 11027122](tel:+4915511027122)  
-E-Mail: [ds@zabel.biz](mailto:ds@zabel.biz)
+Telefon: <a title="Number" href="#" data-number_b64="KzQ5MTU1MTEwMjcxMjIK" style="direction: rtl; unicode-bidi: bidi-override;"><em style="display:none;">q7apaa</em><span>
+</span><em style="display:none;">5z7cb9</em><span>2</span><em style="display:none;">y5eyd8</em><span>2</span><em style="display:none;">ds50g</em><span>1</span><em style="display:none;">88t11j</em><span>7</span><em style="display:none;">z6cxt8</em><span>2</span><em style="display:none;">1izx3o</em><span>0</span><em style="display:none;">japh2</em><span>1</span><em style="display:none;">49u65w</em><span>1 </span><em style="display:none;">bqrvki</em><span>5</span><em style="display:none;">6u405</em><span>5</span><em style="display:none;">rjitsb</em><span>1 </span><em style="display:none;">r3lz8</em><span>9</span><em style="display:none;">1duyh</em><span>4</span><em style="display:none;">fpgd5o</em><span>+</span></a>
+<br>
+E-Mail: <a title="Email" href="#" data-email_b64="ZHNAemFiZWwuYml6Cg==" style="direction: rtl; unicode-bidi: bidi-override;"><em style="display:none;">8jhcr</em><span>
+</span><em style="display:none;">nhsehm</em><span>z</span><em style="display:none;">pek32i</em><span>i</span><em style="display:none;">azoo</em><span>b</span><em style="display:none;">4r2i4</em><span>.</span><em style="display:none;">3jksth</em><span>l</span><em style="display:none;">uud9j</em><span>e</span><em style="display:none;">vfrkz</em><span>b</span><em style="display:none;">hcofbs</em><span>a</span><em style="display:none;">98okll</em><span>z</span><em style="display:none;">ta4rll</em><span>@</span><em style="display:none;">zz8ddu</em><span>s</span><em style="display:none;">77y3a</em><span>d</span></a>
 
 ### II. Rechte der Nutzer und Betroffenen
 Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das Recht

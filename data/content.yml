@@ -11,10 +11,7 @@ hero:
     - 'Treppenhaus- & Fensterreinigung'
     - 'Garten- & Kleinarbeiten'
     - 'Winter- & Mülldienst'
-
-   #- 'Erstes Hamburger Unternehmen'
-   # - 'in der Gebäudereinigung'
-   # - 'dass Bitcoin & Co akzeptiert'
+  
   bg_image: 'images/background.jpg'
   mobile_bg_image: 'images/background.jpg'
 
@@ -22,7 +19,7 @@ about:
   enable: true
  # image: 'images/profile.png'
   title: 'Zabel Objektbetreuung'
-  content: Ihr Partner für Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist, Ruhe zu haben von den physikalischen Arbeiten die mit Immobilien daherkommen. Wir sind schon seit zwei Jahrzehnten für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
+  content: Ihr Partner für Objektbetreuung seit 2000. Wir wissen wie wichtig es Hausverwaltungen ist, Ruhe zu haben von den physischen Arbeiten die mit Immobilien daherkommen. Wir sind schon seit zwei Jahrzehnten für Sie da. Und wir können Ihnen versichern, dass wir es verstehen. Wir sind auf langanhaltende Zusammenarbeit aus und möchten es Ihnen durch das Abnehmen von Lasten leichter machen.
 
   ###########################3 Experience ##############################
 experience:
@@ -51,59 +48,10 @@ contact:
   content: Fragen zu spezifischen Dienstleistungen oder ganz einfach Interesse? Sie können uns per E-Mail erreichen. Möchten Sie ein Telefonat oder eine Besichtigung vereinbaren? Schreiben Sie uns!
   button:
     enable: true
-    label: 'info@zabel.biz'
-    link: "mailto:info@zabel.biz"
+    label: ''
+    link: "#"
+  button1:
+    enable: false
+    label: ''
+    link: "#"
 
- ############################# portfolio ################################
-dienste1:
-  enable: false
-  title: 'Treppenhaus- & Fensterreinigung'
-  portfolio_list:
-    
-    - name: Treppenhausreinigung
-      image: 'images/th.jpg'
-      url: "mailto:info@zabel.biz"
-      description:  
-    - name: Fensterreinigung
-      image: 'images/f.jpg'
-      url: "mailto:info@zabel.biz"
-      description: 
-
-dienste2:
-  enable: false
-  title: 'Garten- & Kleinarbeiten'
-  portfolio_list:
-    
-    - name: Gartenarbeit
-      image: 'images/g.jpg'
-      url: "mailto:info@zabel.biz"
-      description: 
-    - name: Kleinarbeiten
-      image: 'images/k.jpg'
-      url: "mailto:info@zabel.biz"
-      description: 
-
-dienste3:
-  enable: false
-  title: 'Winter- & Mülldienst'
-  portfolio_list:
-    
-    - name: Winterdienst
-      image: 'images/w.jpg'
-      url: "mailto:info@zabel.biz"
-      description:  
-    - name: Mülldienst
-      image: 'images/m.jpg'
-      url: "mailto:info@zabel.biz"
-      description: 
- 
-#finanzen:
-#  enable: true
-#title: 'Finanzielle Souveränität'
-#  portfolio_list:
-    
-#    - name: Bitcoin & Co.
-#      image: 'images/btc.png'
-#url: https://bitcoin.org/de
-#description: Wir sind unserer Recherche nach die Einzigen in Hamburg und einer der wenigen in Deutschland, in der Branche die Bitcoin & Co. akzeptieren. Wir haben uns gewiss für diesen Schritt entschieden, da Risiken mitigiert werden können, wie zum Beispiel das Einfrieren von Geldern. Mit dieser Bezahlmethode können unabhängig von Banken, Transfers getätigt werden.   
-        

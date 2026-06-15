@@ -6,28 +6,29 @@ title = "Zabel Objektbetreuung"
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "plugins/bootstrap.min.css"
+link = "plugins/css/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/hover-min.css"
+link = "plugins/css/hover-min.css"
 [[params.plugins.css]]
-link = "icons/css/all.css"
+link = "plugins/css/dm_sans.css"
 [[params.plugins.css]]
-link = "fonts/dm_sans.css"
+link = "plugins/css/text-animation.css"
 [[params.plugins.css]]
-link = "plugins/text-animation.css"
-[[params.plugins.css]]
-link = "plugins/hugrid.css"
+link = "plugins/css/hugrid.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jquery-3.5.1.min.js"
+link = "plugins/js/jquery-3.5.1.min.js"
 [[params.plugins.js]]
-link = "plugins/jquery.waypoints.js"
+link = "plugins/js/jquery.waypoints.js"
 [[params.plugins.js]]
-link = "plugins/text-animation.js"
+link = "plugins/js/text-animation.js"
 [[params.plugins.js]]
-link = "plugins/hugrid.min.js"
-
+link = "plugins/js/hugrid.min.js"
+[[params.plugins.js]]
+link = "plugins/js/safe-email.min.js"
+[[params.plugins.js]]
+link = "plugins/js/safe-number.min.js"
 
 ############################## navigation ###############################
 
@@ -76,9 +77,5 @@ logo_dark = "images/logo-dark.svg"
 enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
-############################# social site ########################
-
-[[params.social]]
-icon = "fas fa-envelope"
-link = "mailto:info@zabel.biz"
-
+[markup.goldmark.renderer]
+unsafe = true
