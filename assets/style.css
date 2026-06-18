@@ -806,14 +806,6 @@ input:checked + label span:last-child {
   text-decoration: none;
 }
 
-.about-me-images img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width: 90%;
-}
-
 /* ========= Start Skill ======= */
 
 .skill-progress-bar {
@@ -1189,10 +1181,6 @@ input:checked + label span:last-child {
     height: auto;
     margin-bottom: 30px;
     order: 2;
-  }
-  .about-me-image {
-    order: 1;
-    margin-bottom: 30px;
   }
   .about-me-holder {
     display: flex;
