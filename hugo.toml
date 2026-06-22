@@ -11,6 +11,8 @@ link = "plugins/css/bootstrap.min.css"
 link = "plugins/css/dm_sans.css"
 [[params.plugins.css]]
 link = "plugins/css/text-animation.css"
+[[params.plugins.css]]
+link = "plugins/css/hover-min.css"
 
 # JS Plugins
 [[params.plugins.js]]
