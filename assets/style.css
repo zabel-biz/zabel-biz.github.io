@@ -172,15 +172,69 @@ body {
 
 /* ========= Header ======= */
 
+/* Container to enable 3D perspective */
+.header-container {
+  perspective: 1000px;
+}
+
+/* Base button styles with capsule shape and glass effect */
 .header {
-  background: #313131;
+  height: 100vh;
+  border-radius: 30px; /* Creates the capsule shape */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.05)
+  ); /* Transparent glass gradient */
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.4),
+     inset 0 -1px 2px rgba(0, 0, 0, 0.2),
+     0 4px 8px rgba(0, 0, 0, 0.2),
+     0 0 20px rgba(255, 255, 255, 0.1); /* Subtle glow */
+  /* transform: rotateX(
+44deg) translateZ(0); */ /* Initial 3D tilt */
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Springy transition */
+  position: relative;
+  animation: pulse 2s infinite ease-in-out; /* Pulsing glow animation */
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
   height: 100%;
   min-height: 420px;
+}
+
+/* Moving shine effect for glass-like reflection */
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.1),
+    transparent
+  ); /* Shine gradient */
+  transform: skewX(-25deg); /* Tilted shine */
+  animation: shine1 5s infinite linear; /* Continuous shine movement */
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Shine animation for dynamic glass effect */
+@keyframes shine1 {
+  0% {
+    left: -100vh; /* Start off-screen */
+  }
+  100% {
+    left: 250vh; /* Move past button width (200px + buffer) */
+  }
 }
 
 #particles-js {
@@ -350,21 +404,137 @@ body {
   transition: all 0.2s;
 }
 
-.button {
-  text-decoration: none;
-  color: #bbb;
-  font-weight: 500;
-  margin-top: 15px;
-  display: inline-block;
-  padding: 7px 10px;
-  text-shadow: rgb(135 135 135) 4px 4px 4px;
-  border-left: 1px solid rgb(187, 187, 187);
-  background: linear-gradient(90deg, #313131 0%, rgb(65 65 65) 61%, #313131 100%);
+/* Container to enable 3D perspective */
+.button-container {
+  perspective: 1000px;
 }
 
-.button:hover {
-  background: #555;
+/* Base button styles with capsule shape and glass effect */
+.button {
+  width: 200px;
+  height: 60px;
+  border-radius: 30px; /* Creates the capsule shape */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.05)
+  ); /* Transparent glass gradient */
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.4),
+    /* Top highlight */ inset 0 -1px 2px rgba(0, 0, 0, 0.2),
+    /* Bottom shadow */ 0 4px 8px rgba(0, 0, 0, 0.2),
+    /* Drop shadow */ 0 0 20px rgba(255, 255, 255, 0.1); /* Subtle glow */
+  transform: rotateX(15deg) translateZ(0); /* Initial 3D tilt */
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Springy transition */
+  position: relative;
+  cursor: pointer;
+  animation: pulse 2s infinite ease-in-out; /* Pulsing glow animation */
+  overflow: hidden;
+  display: flex;
 }
+
+/* Moving shine effect for glass-like reflection */
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.1),
+    transparent
+  ); /* Shine gradient */
+  transform: skewX(-25deg); /* Tilted shine */
+  animation: shine 3s infinite linear; /* Continuous shine movement */
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Ground shadow to enhance 3D effect */
+.button::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10%;
+  width: 80%;
+  height: 10px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.3) 0%,
+    transparent 70%
+  ); /* Soft shadow */
+  z-index: -1;
+}
+
+/* Text inside the button */
+.button span {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Depth for text */
+  display: block;
+  line-height: 60px; /* Center vertically */
+  text-align: center;
+  right: 35px;
+}
+
+/* Hover state: Straighten, lift, and enhance glow */
+.button:hover {
+  transform: rotateX(0deg) translateZ(15px) scale(1.05); /* Lift and scale */
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.4),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.2),
+    0 8px 16px rgba(0, 0, 0, 0.3),
+    /* Stronger shadow */ 0 0 40px rgba(255, 255, 255, 0.25); /* Brighter glow */
+}
+
+/* Active state: Depress and dim glow */
+.button:active {
+  transform: rotateX(0deg) translateZ(-5px) scale(0.95); /* Push down */
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.4),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.2),
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    /* Reduced shadow */ 0 0 10px rgba(255, 255, 255, 0.1); /* Dimmed glow */
+}
+
+/* Pulsing animation for idle state */
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow:
+      inset 0 1px 2px rgba(255, 255, 255, 0.4),
+      inset 0 -1px 2px rgba(0, 0, 0, 0.2),
+      0 4px 8px rgba(0, 0, 0, 0.2),
+      0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow:
+      inset 0 1px 2px rgba(255, 255, 255, 0.4),
+      inset 0 -1px 2px rgba(0, 0, 0, 0.2),
+      0 4px 8px rgba(0, 0, 0, 0.2),
+      0 0 30px rgba(255, 255, 255, 0.2); /* Peak glow */
+  }
+}
+
+/* Shine animation for dynamic glass effect */
+@keyframes shine {
+  0% {
+    left: -50px; /* Start off-screen */
+  }
+  100% {
+    left: 250px; /* Move past button width (200px + buffer) */
+  }
+}
+
 
 input + label {
   position: absolute;
@@ -861,7 +1031,7 @@ input:checked + label span:last-child {
 .services {
   justify-content: right;
   display: flex;
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 /*--------------------------------
@@ -1181,7 +1351,7 @@ input:checked + label span:last-child {
   .about-me-text {
     display: block;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     order: 2;
   }
   .about-me-holder {
@@ -1190,7 +1360,7 @@ input:checked + label span:last-child {
     justify-content: left !important;
   }
   .skill {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   .skillbar {
     margin-bottom: 15px;
@@ -1218,10 +1388,11 @@ input:checked + label span:last-child {
 ----------------------------------*/
 
 .contact {
-  padding-top: 70px;
+  /* padding-top: 70px; */
   margin-bottom: 30px;
 }
 
 /*--------------------------------
   End Contact
 ----------------------------------*/
+
